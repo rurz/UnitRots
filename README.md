@@ -20,9 +20,10 @@ ___
 Testing the `Emodes(M, θ)`function runtime on a test image given by a "discrete delta" centered at _q = 16_ for _j = 15_.
 
 ```julia
+julia> using UnitRots
 julia> using ImageCore
-julia> julia> input = Int64.(channelview(Gray.(load("data/benchmark/delta31.png"))))
-julia> julia> out = @benchmark Emodes(input, π/4)
+julia> input = Int64.(channelview(Gray.(load("data/benchmark/delta31.png"))))
+julia> out = @benchmark Emodes(input, π/4)
 BenchmarkTools.Trial: 1 sample with 1 evaluation.
  Single result which took 28.734 s (2.96% GC) to evaluate,
  with a memory estimate of 39.82 GiB, over 7629506 allocations.
