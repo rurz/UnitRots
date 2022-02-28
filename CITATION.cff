@@ -1,0 +1,13 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Polychromatic Unitary Rotations
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - given-names: Alejandro R.
+    family-names: Urzua
+    email: alejandro@icf.unam.mx
+    affiliation: 'Instituto de Ciencias Fisicas, UNAM MX'
+    orcid: 'https://orcid.org/0000-0002-6255-5453'
