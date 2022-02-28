@@ -11,3 +11,6 @@ authors:
     email: alejandro@icf.unam.mx
     affiliation: 'Instituto de Ciencias Fisicas, UNAM MX'
     orcid: 'https://orcid.org/0000-0002-6255-5453'
+version: 0.1.0
+date-released: 2022-02-27
+url: "https://github.com/rurz/UnitRots"
